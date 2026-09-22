@@ -1,0 +1,129 @@
+{
+  "personal": {
+    "name": "Sumit Srivastava",
+    "headline": "Full-Stack Web Developer (MERN)",
+    "location": "Bengaluru, Karnataka, India",
+    "email": "sumsri2024@gmail.com",
+    "phone": "+91 9305984218",
+    "linkedin": "/in/sumit-srivastava2731",
+    "github": "/Sumitdevelops"
+  },
+  "summary": "Full-stack developer with hands-on experience building and deploying MERN-stack applications. Strong foundation in Data Structures & Algorithms with 100+ LeetCode problems solved. Experienced in integrating AI/LLM APIs into production applications, RESTful API design, and secure authentication systems. Currently expanding into GenAI application development, FastAPI, and Next.js.",
+  "skills": {
+    "languages": [
+      "C++",
+      "JavaScript",
+      "Java",
+      "Python"
+    ],
+    "frontend": [
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "FastAPI"
+    ],
+    "database_and_auth": [
+      "MongoDB",
+      "JWT",
+      "OAuth 2.0 (Google)"
+    ],
+    "ai_genai": [
+      "LLM API integration (Grok)",
+      "AI chatbot development",
+      "prompt-based analytics"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Vercel",
+      "Netlify",
+      "Render"
+    ]
+  },
+  "experience": [],
+  "projects": [
+    {
+      "name": "ApexMoney",
+      "description": "AI-Powered Personal Expense Tracker",
+      "url": "apexmoney.netlify.app",
+      "tech_stack": [
+        "React.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Google OAuth",
+        "Grok LLM API"
+      ],
+      "details": [
+        "Developed and deployed a full-stack expense management platform with 21+ registered users.",
+        "Implemented secure JWT-based and Google OAuth authentication.",
+        "Designed a normalized MongoDB schema across 7 collections for scalable multi-feature financial tracking.",
+        "Implemented CRUD functionality for income and expense management, category-wise tracking, bill reminders, and financial goal setting.",
+        "Designed and optimized REST APIs and MongoDB queries for efficient data retrieval.",
+        "Implemented a tiered free/active subscription system.",
+        "Integrated an AI financial assistant using the Grok LLM API for expense analysis, finance-related queries, and personalized budgeting insights."
+      ]
+    },
+    {
+      "name": "GlucoWave",
+      "description": "AI-Powered Glucose Monitoring Platform",
+      "url": "glucowave.onrender.com",
+      "tech_stack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "AI/LLM API"
+      ],
+      "details": [
+        "Built a full-stack glucose monitoring platform with AI-based glucose drop prediction.",
+        "Generated predicted glucose trajectories from user-input glucose levels, meals, and eating times.",
+        "Developed an interactive analytics dashboard for daily, weekly, and monthly glucose trends and predicted spikes.",
+        "Implemented an AI chatbot for hypoglycemia guidance.",
+        "Implemented secure authentication, user profiles, and health-data logging.",
+        "Built a fully responsive UI for a personalized monitoring experience."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science and Engineering",
+      "institution": "Visvesvaraya Technological University",
+      "duration": "2024 – 2028",
+      "cgpa": "9.20 / 10.00",
+      "current_year": "3rd Year"
+    },
+    {
+      "degree": "Class XII",
+      "institution": "Suryabadan Vidyapeeth (CBSE)",
+      "duration": "2022 – 2023",
+      "percentage": "82.2%"
+    },
+    {
+      "degree": "Class X",
+      "institution": "Casterbridge School (ICSE)",
+      "duration": "2020 – 2021",
+      "percentage": "95.4%"
+    }
+  ],
+  "certifications": [],
+  "achievements": [
+    "Solved 100+ problems on LeetCode, building a strong foundation in Data Structures & Algorithms.",
+    "Finalist, National-Level Hackathon — competed among top teams building a full-stack solution under time constraints."
+  ],
+  "career_preferences": {
+    "roles": [],
+    "preferred_locations": [],
+    "work_mode": []
+  }
+}
