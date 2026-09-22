@@ -132,17 +132,17 @@ export const PROFILE_DATA: ProfileData = {
       featured: true
     },
     {
-      name: "Study Guide AI",
-      tagline: "Intelligent Learning & Exam Preparation Platform",
+      name: "StudyTube AI",
+      tagline: "AI-Powered Video & Coursework Learning Platform",
       category: "AI & GenAI",
-      description: "An AI-powered educational platform that converts complex syllabus materials into structured revision paths, interactive summaries, and contextual quizzes using RAG.",
+      description: "An AI-powered educational platform that converts complex syllabus materials and video lectures into structured revision paths, interactive summaries, and contextual quizzes using RAG.",
       tech_stack: [
+        "Next.js",
+        "React.js",
         "Python",
         "LangChain",
         "RAG",
-        "Generative AI",
         "FastAPI",
-        "Next.js",
         "Tailwind CSS"
       ],
       highlights: [
@@ -151,7 +151,7 @@ export const PROFILE_DATA: ProfileData = {
         "Engineered low-latency document chunking, embeddings extraction, and semantic search workflows.",
         "Built a responsive modern interface with dynamic progress tracking and customizable study goals."
       ],
-      live_url: "https://studyguideai.example.com",
+      live_url: "https://client-gilt-one-15.vercel.app",
       github_url: "https://github.com/Sumitdevelops",
       featured: true
     },

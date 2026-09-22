@@ -93,6 +93,26 @@
         "Implemented secure authentication, user profiles, and health-data logging.",
         "Built a fully responsive UI for a personalized monitoring experience."
       ]
+    },
+    {
+      "name": "StudyTube AI",
+      "description": "AI-Powered Video & Coursework Learning Platform",
+      "url": "client-gilt-one-15.vercel.app",
+      "tech_stack": [
+        "Next.js",
+        "React.js",
+        "Python",
+        "LangChain",
+        "RAG",
+        "FastAPI",
+        "Tailwind CSS"
+      ],
+      "details": [
+        "Architected a Retrieval-Augmented Generation (RAG) pipeline to ground AI responses directly in course textbooks and lecture notes.",
+        "Generates multi-tiered revision guides, automated concept flashcards, and diagnostic multiple-choice quizzes.",
+        "Engineered low-latency document chunking, embeddings extraction, and semantic search workflows.",
+        "Built a responsive modern interface with dynamic progress tracking and customizable study goals."
+      ]
     }
   ],
   "education": [
