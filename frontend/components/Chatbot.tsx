@@ -23,10 +23,16 @@ export default function Chatbot() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    // Only scroll the internal chat container if messages have been exchanged
+    if (messages.length > 1 && chatContainerRef.current) {
+      chatContainerRef.current.scrollTo({
+        top: chatContainerRef.current.scrollHeight,
+        behavior: "smooth"
+      });
+    }
   }, [messages]);
 
   function clearChat() {
@@ -133,7 +139,7 @@ export default function Chatbot() {
         {/* Chat Window */}
         <div className="overflow-hidden rounded border border-[#5a4136]/60 bg-[#16191f] shadow-2xl shadow-black/50 backdrop-blur-xl">
           {/* Messages Container */}
-          <div className="h-[440px] overflow-y-auto p-6 space-y-4">
+          <div ref={chatContainerRef} className="h-[440px] overflow-y-auto p-6 space-y-4">
             {messages.map((message, index) => {
               const isUser = message.role === "user";
               return (
@@ -178,7 +184,6 @@ export default function Chatbot() {
                 </div>
               );
             })}
-            <div ref={messagesEndRef} />
           </div>
 
           {/* Input Bar */}
